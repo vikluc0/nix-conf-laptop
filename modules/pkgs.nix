@@ -28,7 +28,6 @@ in
     steam.gamescopeSession.enable = true;
     gamemode.enable = true;
     zsh.enable = true;
-    yazi.enable = true;
     localsend.enable = true;
     hyprland = {
       enable = true;
@@ -81,6 +80,7 @@ in
     lavat
     ffmpeg
     plasticity
+    notesnook
   ] ++ (with pkgs-unstable; [
     (superfile.overrideAttrs (oldAttrs: {
       postInstall = (oldAttrs.postInstall or "") + ''
