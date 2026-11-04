@@ -53,6 +53,7 @@
         nix-flatpak.nixosModules.nix-flatpak
         home-manager.nixosModules.home-manager
         serpantinum.nixosModules.default
+        nordvpn.nixosModules.nordvpn
         {
           home-manager = {
             useGlobalPkgs = true;

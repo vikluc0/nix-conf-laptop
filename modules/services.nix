@@ -1,4 +1,4 @@
-{ pkgs, config, nordvpn, ... }:
+{ pkgs, nordvpn, ... }:
 
 {
   
