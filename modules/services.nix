@@ -94,6 +94,11 @@
     hardware.openrgb.enable = true;
     tailscale.enable = true;
     gnome.gnome-keyring.enable = true;
+    nordvpn = {
+      users = [ "vikluc0" ];
+      enable = true;
+      enableGui = true;
+    };
   };
 
   networking = {
