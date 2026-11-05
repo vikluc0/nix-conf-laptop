@@ -88,7 +88,7 @@ file_panel_extra_columns = 0
 # Percentage of file panel width allocated to file names (25-100). Higher values give more space to names, less to extra columns.
 file_panel_name_percent = 50
 
-
+zoxide_support = true
 ###############################################################################
 #                                   Styling                                   #
 ###############################################################################
