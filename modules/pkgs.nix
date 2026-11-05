@@ -79,7 +79,6 @@ in
     spotify
     lavat
     ffmpeg
-    plasticity
     notesnook
   ] ++ (with pkgs-unstable; [
     (superfile.overrideAttrs (oldAttrs: {
