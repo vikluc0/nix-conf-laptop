@@ -43,11 +43,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792818383,
-        "narHash": "sha256-199i7ubVSXTMl+0AAlL7cVCXSjcI+jWByMcimYjeMX0=",
+        "lastModified": 1794251182,
+        "narHash": "sha256-R2sZBXiOJo3HAnvTiVkbbHDJy//JMlAwUKEiPbfqPXk=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "24f2190587513b9c2f73db112a17844ae912d965",
+        "rev": "6eb2d33d1d0c95a37ef6443c88e6c1686012ee8b",
         "type": "github"
       },
       "original": {
@@ -63,11 +63,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1788971242,
-        "narHash": "sha256-XGWQ4CtmuRH+4NijKC5OlMMd32Au7plsIaiaCWuM4to=",
+        "lastModified": 1794094341,
+        "narHash": "sha256-mZayBFqS/teJY/6qezBwSa+MqzLd8es97r3RfvRUioI=",
         "owner": "pfassina",
         "repo": "lazyvim-nix",
-        "rev": "21893371738a6734c2a8ca455d92d57cc8accf83",
+        "rev": "30f8896fa0728844905a2e34f55d93fa42e69bf9",
         "type": "github"
       },
       "original": {
@@ -130,11 +130,11 @@
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1793540411,
-        "narHash": "sha256-fiPJ88izTVucjeo2EQ3jk4aWmLg03I1D4vxnX2QjEgE=",
+        "lastModified": 1794042290,
+        "narHash": "sha256-ziZn2PvCJE5JEEpqTdxXwJpPB+L3YqoCpTAMCzyaP3U=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "0bb2eedc20e4739f29e8045034f2828ad7054f8f",
+        "rev": "f4a03c008967841f2a0b3cb7c436fc6fc31671f6",
         "type": "github"
       },
       "original": {
@@ -146,11 +146,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1793526781,
-        "narHash": "sha256-2Cxxgpz1+cRgKZJFi12/9LG3aIBN66f2RvFs34Oj/A0=",
+        "lastModified": 1794165970,
+        "narHash": "sha256-XuAV2cUwaod3Bt4XFVqiXz3v1w2ex16W6Sv4S7EWres=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "9bb52223f4f6a0cc606fd0852d8784f896c137d5",
+        "rev": "ac588ef1c914865dad517b337ea0eb9694a4021c",
         "type": "github"
       },
       "original": {
@@ -183,11 +183,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792686746,
-        "narHash": "sha256-QCX21kgud2Lc2HOITnm8c0BdFKplTL9nGLZJCiReXMU=",
+        "lastModified": 1793785030,
+        "narHash": "sha256-nB7CJZce3tDsD/IyHAtSprf3vDjOxw4f3cE0hEaDwps=",
         "ref": "refs/heads/main",
-        "rev": "a9f47a24ad6973888e4ad55d0f5fdfda83bdaaca",
-        "revCount": 53,
+        "rev": "58cc99592faf30a34648617284e3ac049d1a706e",
+        "revCount": 54,
         "type": "git",
         "url": "https://codeberg.org/marcodemayda/nordvpn-nix"
       },
@@ -239,11 +239,11 @@
         "ski": "ski"
       },
       "locked": {
-        "lastModified": 1793650886,
-        "narHash": "sha256-QyZwa+JWsuskPdfr0mAx+CNJ0q3aHwGVPIovn2C0qtQ=",
+        "lastModified": 1794267287,
+        "narHash": "sha256-gV9rn01rsVBbaQnQ9Gve8JwyucpJh9L16yjN6098+U4=",
         "owner": "ilyamiro",
         "repo": "serpantinum",
-        "rev": "d1cfb0fb4a2545ef6176e619531d210faf11ead9",
+        "rev": "01f7c4dce9e6852c7247312dda6741ece1e194d1",
         "type": "github"
       },
       "original": {
@@ -271,11 +271,11 @@
     "ski": {
       "flake": false,
       "locked": {
-        "lastModified": 1793650738,
-        "narHash": "sha256-cLz4ETl006EqCgxW/SMibIlWgHh00vJVeejdh+z3I60=",
+        "lastModified": 1793704142,
+        "narHash": "sha256-wxnRqzcNTWfa9ZlHkFtwJIlhxmgo+YYSmGKozIjLiBg=",
         "owner": "ilyamiro",
         "repo": "Ski",
-        "rev": "1fbc657d12d9ff44e669111a9e00498100f928fe",
+        "rev": "807c744724bb7f34de09f737973aa73391a931b1",
         "type": "github"
       },
       "original": {
