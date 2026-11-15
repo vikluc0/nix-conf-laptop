@@ -9,7 +9,7 @@
       options = {
         number = true;
         relativenumber = true;
-        cursorline = true;
+        cursorline = false;
         termguicolors = true;
         signcolumn = "yes";
         scrolloff = 8;
@@ -66,7 +66,7 @@
       };
 
       statusline.lualine = {
-        enable = false;
+        enable = true;
       };
 
       dashboard.alpha.enable = true;
@@ -88,11 +88,9 @@
 
       globals.mapleader = " ";
 
-      # Completion and snippets
       autocomplete.nvim-cmp.enable = true;
       snippets.luasnip.enable = true;
 
-      # Language support
       lsp = {
         enable = true;
         formatOnSave = true;
@@ -130,7 +128,6 @@
         python.enable = true;
       };
 
-      # File navigation
       utility.snacks-nvim = {
         enable = true;
         setupOpts = {
@@ -146,7 +143,6 @@
 
       notify.nvim-notify.enable = true;
 
-      # Editing
       autopairs.nvim-autopairs.enable = true;
       treesitter.context.enable = false;
       utility = {
@@ -155,10 +151,8 @@
       };
       notes.todo-comments.enable = true;
 
-      # Navigation
       utility.motion.hop.enable = true;
 
-      # Custom LazyVim-style shortcuts
       keymaps = [
         {
           key = "<leader>ff";
@@ -204,7 +198,6 @@
          background_colour = "#000000",
         })
 
-        -- Customize Alpha dashboard buttons
         local dashboard = require("alpha.themes.dashboard")
 
         dashboard.section.buttons.val = {
@@ -218,14 +211,6 @@
         }
 
         require("alpha").setup(dashboard.config)
-
-        vim.api.nvim_create_autocmd("VimEnter", {
-          callback = set_line_number_colors,
-        })
-
-        vim.api.nvim_create_autocmd("ColorScheme", {
-          callback = set_line_number_colors,
-        })
       '';
     };
   };

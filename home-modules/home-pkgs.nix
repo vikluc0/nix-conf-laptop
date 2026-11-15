@@ -1,11 +1,9 @@
 {
   pkgs,
-  lazyvim,
   serpantinum,
   ...
 }: {
   imports = [
-    lazyvim.homeManagerModules.default
     serpantinum.homeManagerModules.default
     ./nvim.nix
     ./zsh.nix
@@ -14,7 +12,6 @@
   programs = {
     fzf.enable = true;
     zoxide.enable = true;
-    lazyvim.enable = false;
     serpantinum = {
       enable = true;
       systemd.enable = false;
