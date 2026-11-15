@@ -200,13 +200,20 @@
 
         local dashboard = require("alpha.themes.dashboard")
 
+        dashboard.section.header.val = {
+          "███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗",
+          "████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║",
+          "██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║",
+          "██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║",
+          "██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║",
+          "╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝",
+        }
+
         dashboard.section.buttons.val = {
           dashboard.button("e", "  New file", "<cmd>ene<CR>"),
           dashboard.button("f", "󰈞  Find file", "<cmd>lua Snacks.picker.files()<CR>"),
           dashboard.button("h", "󰊄  Recently opened files", "<cmd>lua Snacks.picker.recent()<CR>"),
-          dashboard.button("r", "  Recent files", "<cmd>lua Snacks.picker.recent()<CR>"),
           dashboard.button("g", "󰈬  Find word", "<cmd>lua Snacks.picker.grep()<CR>"),
-          dashboard.button("m", "  Jump to bookmarks", "<cmd>lua Snacks.picker.marks()<CR>"),
           dashboard.button("q", "󰅚  Quit", "<cmd>qa<CR>"),
         }
 
