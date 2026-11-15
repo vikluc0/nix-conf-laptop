@@ -1,23 +1,20 @@
-{ pkgs, ... }:
-
-{
+{pkgs, ...}: {
   boot = {
     loader = {
       grub = {
         enable = true;
         efiSupport = true;
         device = "nodev";
-        useOSProber = true; 
+        useOSProber = true;
       };
       efi = {
         canTouchEfiVariables = true;
-        efiSysMountPoint = "/boot"; 
+        efiSysMountPoint = "/boot";
       };
     };
     kernelPackages = pkgs.linuxPackages;
     initrd.kernelModules = [
-
     ];
-    kernelParams = [  ];
+    kernelParams = [];
   };
 }
