@@ -5,6 +5,7 @@
   imports = [ 
     ./kde/kde.nix
     ./home-modules/home-pkgs.nix
+    ./nvim.nix
   ];
   home.username = "vikluc0";
   home.homeDirectory = "/home/vikluc0";

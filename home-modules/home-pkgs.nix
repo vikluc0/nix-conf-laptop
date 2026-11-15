@@ -9,7 +9,7 @@
   programs = {
     fzf.enable = true;
     zoxide.enable = true;
-    lazyvim.enable = true;
+    lazyvim.enable = false;
     serpantinum = {
       enable = true;
       systemd.enable = false;

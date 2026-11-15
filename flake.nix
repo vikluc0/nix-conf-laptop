@@ -18,6 +18,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     lazyvim.url = "github:pfassina/lazyvim-nix";
+    nvf.url = "github:NotAShelf/nvf";
     serpantinum.url = "github:ilyamiro/serpantinum";
     nordvpn = {
       url = "git+https://codeberg.org/marcodemayda/nordvpn-nix";
@@ -36,6 +37,7 @@
     nixos-splash-plasma6,
     serpantinum,
     nordvpn,
+    nvf,
     ...
   }: {
     nixosConfigurations.VirusLaptop = nixpkgs.lib.nixosSystem {
@@ -62,6 +64,7 @@
               imports = [
 	            ./home.nix
 		          plasma-manager.homeModules.plasma-manager
+              nvf.homeModules.default
 	            ];
             };
             backupFileExtension = "hm-backup";
