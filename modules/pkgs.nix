@@ -53,7 +53,6 @@ in {
       vlc
       yt-dlp
       peazip
-      whatsie
       libreoffice
       tailscale
       gparted
@@ -117,6 +116,7 @@ in {
 
   services.flatpak.packages = [
     "org.vinegarhq.Sober"
+    "com.ktechpit.whatsie"
   ];
 
   fonts.packages = with pkgs; [
