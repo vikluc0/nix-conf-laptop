@@ -83,6 +83,7 @@ in {
       lavat
       ffmpeg
       notesnook
+      thunderbird
     ]
     ++ (with pkgs-unstable; [
       (superfile.overrideAttrs (oldAttrs: {
