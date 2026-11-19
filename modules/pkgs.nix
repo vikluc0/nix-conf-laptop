@@ -2,6 +2,7 @@
   pkgs,
   pkgs-unstable,
   nixos-splash-plasma6,
+  bedrock-on-linux,
   ...
 }: let
   sddmWallpaperName = "mountain.png";
@@ -81,9 +82,9 @@ in {
       ffmpeg
       notesnook
       thunderbird
+      bedrock-on-linux.packages.${pkgs.stdenv.hostPlatform.system}.default
 
-      kdePackages.kdenlive
-      kdePackages.kate
+      kdePackages.okular
       kdePackages.spectacle
       kdePackages.gwenview
       kdePackages.breeze
