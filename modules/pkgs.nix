@@ -64,14 +64,11 @@ in {
       jdk25
       prismlauncher
       sddm-astronaut
-      kdePackages.qtmultimedia
-      kdePackages.sddm-kcm
       hplip
       nixos-splash-plasma6.packages.${pkgs.stdenv.hostPlatform.system}.default
       waydroid
       wineWow64Packages.stable
       winetricks
-      kdePackages.kdenlive
       ckan
       openrgb
       obs-studio
@@ -84,6 +81,16 @@ in {
       ffmpeg
       notesnook
       thunderbird
+
+      kdePackages.kdenlive
+      kdePackages.kate
+      kdePackages.spectacle
+      kdePackages.gwenview
+      kdePackages.breeze
+      kdePackages.breeze-icons
+      kdePackages.breeze-gtk
+      kdePackages.qtmultimedia
+      kdePackages.sddm-kcm
     ]
     ++ (with pkgs-unstable; [
       (superfile.overrideAttrs (oldAttrs: {

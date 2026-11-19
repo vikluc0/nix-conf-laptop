@@ -1,12 +1,10 @@
-{
-  pkgs,
-  serpantinum,
-  ...
-}: {
+{serpantinum, ...}: {
   imports = [
     serpantinum.homeManagerModules.default
-    ./nvim.nix
+    ./kitty.nix
     ./zsh.nix
+    ./nvim.nix
+    ./btop.nix
   ];
 
   programs = {
@@ -33,13 +31,4 @@
     ## git commit -m "change"
     ## git push origin main
   };
-
-  home.packages = with pkgs; [
-    kdePackages.kate
-    kdePackages.spectacle
-    kdePackages.gwenview
-    kdePackages.breeze
-    kdePackages.breeze-icons
-    kdePackages.breeze-gtk
-  ];
 }
