@@ -59,11 +59,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1794251182,
-        "narHash": "sha256-R2sZBXiOJo3HAnvTiVkbbHDJy//JMlAwUKEiPbfqPXk=",
+        "lastModified": 1795325060,
+        "narHash": "sha256-XYoMPsqRFZ6jOaYI1KAAu8fzqif4tkCX8mhEKrViDXQ=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "6eb2d33d1d0c95a37ef6443c88e6c1686012ee8b",
+        "rev": "6480d7d8533b88c78cc6dcda395ab89cd546e450",
         "type": "github"
       },
       "original": {
@@ -142,11 +142,11 @@
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1794386569,
-        "narHash": "sha256-x9sADJvoVG0L6RejZB+/BB4YiGZFBZrfTlhF4uBq1tQ=",
+        "lastModified": 1795234589,
+        "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d4f25a3e562008648d45bcf2d70bcc7422cad84e",
+        "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
         "type": "github"
       },
       "original": {
@@ -158,11 +158,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1794552581,
-        "narHash": "sha256-qXFIqA6FCcx7XeDzw0ZNlkDT9UiCzrNDwK8RuU8RcHM=",
+        "lastModified": 1795370043,
+        "narHash": "sha256-s/0jq8usZtLVOolYBwmyUmd3JsfAu7w3FU+a0dgMqSY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f1e5c356f35d07e7b71a6b5e6c9338e0b029e0c0",
+        "rev": "0dc498bfe49baeb18b0f9891e800b53bb2603193",
         "type": "github"
       },
       "original": {
@@ -187,11 +187,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1794042290,
-        "narHash": "sha256-ziZn2PvCJE5JEEpqTdxXwJpPB+L3YqoCpTAMCzyaP3U=",
+        "lastModified": 1795234589,
+        "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "f4a03c008967841f2a0b3cb7c436fc6fc31671f6",
+        "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
         "type": "github"
       },
       "original": {
@@ -208,11 +208,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1793785030,
-        "narHash": "sha256-nB7CJZce3tDsD/IyHAtSprf3vDjOxw4f3cE0hEaDwps=",
+        "lastModified": 1795445449,
+        "narHash": "sha256-QrIOPI8t2asUdUs/Xz/XAlg6Z/KRDXR7UfVxxz5LiPc=",
         "ref": "refs/heads/main",
-        "rev": "58cc99592faf30a34648617284e3ac049d1a706e",
-        "revCount": 54,
+        "rev": "ee2441b70cb1358163e1f4b6f13568f567eccd07",
+        "revCount": 56,
         "type": "git",
         "url": "https://codeberg.org/marcodemayda/nordvpn-nix"
       },
@@ -228,11 +228,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1794522644,
-        "narHash": "sha256-EOYKot/+xy+p+5cd3+1EeR7nz1FevIkxC/Hs6TbndWg=",
+        "lastModified": 1795728245,
+        "narHash": "sha256-b6aWfz15e6TTc+soIryw4cUVUU4U/DD/Rq3FU2RisTg=",
         "owner": "NotAShelf",
         "repo": "nvf",
-        "rev": "d38e36c2513337b56a3b16af268c7a3f2d33de7a",
+        "rev": "ee07579419e4e020c017b2d9817d8245d167a6fb",
         "type": "github"
       },
       "original": {
@@ -285,11 +285,11 @@
         "ski": "ski"
       },
       "locked": {
-        "lastModified": 1794595995,
-        "narHash": "sha256-WvHMJnFYojfCLkjRBTgVGcHLYBucXcKGNQ4t/VQ0qcY=",
+        "lastModified": 1795730802,
+        "narHash": "sha256-N9UrT+jTSydqlhs+CBrg+913UDCHE5LsBxcLgEz1w3c=",
         "owner": "ilyamiro",
         "repo": "serpantinum",
-        "rev": "7d2e2049350ec422851084d19fd9ffaa48fd556e",
+        "rev": "3a1c89d62533a7816d6a99e4e4de7bd68c03b054",
         "type": "github"
       },
       "original": {
@@ -317,11 +317,11 @@
     "ski": {
       "flake": false,
       "locked": {
-        "lastModified": 1794135603,
-        "narHash": "sha256-qiNSb+vTGfmaTW62hgHC+uEj/xWyrbxgNAyObMTgne8=",
+        "lastModified": 1795092052,
+        "narHash": "sha256-qzrhOr4RDBebnc+JF4QjRszlHYxA4vLp2o/7RbMZKwQ=",
         "owner": "ilyamiro",
         "repo": "Ski",
-        "rev": "afff38b542c0dc74d204b275e70a5d0d0a8f5de9",
+        "rev": "d269abcb1ba87ef98467b64c86d07440c9d7a996",
         "type": "github"
       },
       "original": {
