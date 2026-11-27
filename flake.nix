@@ -1,44 +1,59 @@
 {
   description = "Nixos flake";
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
-    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nix-flatpak.url = "github:gmodena/nix-flatpak";
-    home-manager = {
-      url = "github:nix-community/home-manager/release-26.05";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    plasma-manager = {
-      url = "github:nix-community/plasma-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";
-    };
-    nixos-splash-plasma6 = {
-      url = "github:nimrodium/nixos-splash-plasma6";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    nvf.url = "github:NotAShelf/nvf";
-    serpantinum.url = "github:ilyamiro/serpantinum";
-    nordvpn = {
-      url = "git+https://codeberg.org/marcodemayda/nordvpn-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    bedrock-on-linux.url = "github:Wyze3306/BedrockOnLinux";
-  };
+  ##  inputs = {
+  ##    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+  ##    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
+  ##    nix-flatpak.url = "github:gmodena/nix-flatpak";
+  ##    home-manager = {
+  ##      url = "github:nix-community/home-manager/release-26.05";
+  ##      inputs.nixpkgs.follows = "nixpkgs";
+  ##    };
+  ##    plasma-manager = {
+  ##      url = "github:nix-community/plasma-manager";
+  ##      inputs.nixpkgs.follows = "nixpkgs";
+  ##      inputs.home-manager.follows = "home-manager";
+  ##    };
+  ##    nixos-splash-plasma6 = {
+  ##      url = "github:nimrodium/nixos-splash-plasma6";
+  ##      inputs.nixpkgs.follows = "nixpkgs";
+  ##    };
+  ##    nvf.url = "github:NotAShelf/nvf";
+  ##    serpantinum.url = "github:ilyamiro/serpantinum";
+  ##    nordvpn = {
+  ##      url = "git+https://codeberg.org/marcodemayda/nordvpn-nix";
+  ##      inputs.nixpkgs.follows = "nixpkgs";
+  ##    };
+  ##    bedrock-on-linux.url = "github:Wyze3306/BedrockOnLinux";
+  ##  };
 
   outputs = {
-    nixpkgs,
-    nixpkgs-unstable,
-    home-manager,
-    plasma-manager,
-    nix-flatpak,
-    nixos-splash-plasma6,
-    serpantinum,
-    nordvpn,
-    nvf,
-    bedrock-on-linux,
+    ##    nixpkgs,
+    ##    nixpkgs-unstable,
+    ##    home-manager,
+    ##    plasma-manager,
+    ##    nix-flatpak,
+    ##    nixos-splash-plasma6,
+    ##    serpantinum,
+    ##    nordvpn,
+    ##    nvf,
+    ##    bedrock-on-linux,
     ...
-  }: {
+  }: let
+    pins = import ./.tack;
+    inherit
+      (pins)
+      nixpkgs
+      nixpkgs-unstable
+      home-manager
+      plasma-manager
+      nix-flatpak
+      nixos-splash-plasma6
+      serpantinum
+      nordvpn
+      nvf
+      bedrock-on-linux
+      ;
+  in {
     nixosConfigurations.VirusLaptop = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {

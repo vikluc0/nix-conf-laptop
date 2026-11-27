@@ -14,7 +14,8 @@
 
     shellAliases = {
       rebuild = "sudo nixos-rebuild switch --flake /etc/nixos/#VirusLaptop";
-      update = "sudo nix flake update --flake /etc/nixos/ && sudo nixos-rebuild switch --flake /etc/nixos/#VirusLaptop && flatpak update";
+      ##      update = "sudo nix flake update --flake /etc/nixos/ && sudo nixos-rebuild switch --flake /etc/nixos/#VirusLaptop && flatpak update";
+      update = "z /etc/nixos && tack update && sudo nixos-rebuild switch --flake /etc/nixos/#VirusLaptop && flatpak update";
       bios-update = "sudo fwupdmgr refresh && sudo fwupdmgr update";
       nix-clean = "nh clean all --keep 5";
       ls = "ls --color=auto";

@@ -1,0 +1,82 @@
+{
+  "bedrock-on-linux": {
+    "type": "github",
+    "owner": "Wyze3306",
+    "repo": "BedrockOnLinux",
+    "rev": "8ed2e52b03e47b5bed531e3b418102c282efcefd",
+    "narHash": "sha256-P2VhErHenM5PbhA8fioHg5gRqdfQQJ5zh209YQNUxD8=",
+    "lastModified": 1794742073
+  },
+  "home-manager": {
+    "type": "github",
+    "owner": "nix-community",
+    "repo": "home-manager",
+    "rev": "6480d7d8533b88c78cc6dcda395ab89cd546e450",
+    "narHash": "sha256-XYoMPsqRFZ6jOaYI1KAAu8fzqif4tkCX8mhEKrViDXQ=",
+    "lastModified": 1795325060
+  },
+  "nix-flatpak": {
+    "type": "github",
+    "owner": "gmodena",
+    "repo": "nix-flatpak",
+    "rev": "02656785ab214fa1c9655f1beaaf0269eeeec2ca",
+    "narHash": "sha256-f7Z4PmfnRxf7+37NN48ep+KsQauGtL5REE99pJtMNp8=",
+    "lastModified": 1791644268
+  },
+  "nixos-splash-plasma6": {
+    "type": "github",
+    "owner": "nimrodium",
+    "repo": "nixos-splash-plasma6",
+    "rev": "859a79592e697a1d464afc4ba4d2948ac3f1ebbe",
+    "narHash": "sha256-ysgUKxa1+sn/xv3pB/slfVE4lv2ays70DbGTMrVLQ34=",
+    "lastModified": 1783119315
+  },
+  "nixpkgs": {
+    "type": "github",
+    "owner": "NixOS",
+    "repo": "nixpkgs",
+    "rev": "0dc498bfe49baeb18b0f9891e800b53bb2603193",
+    "narHash": "sha256-s/0jq8usZtLVOolYBwmyUmd3JsfAu7w3FU+a0dgMqSY=",
+    "lastModified": 1795370043
+  },
+  "nixpkgs-unstable": {
+    "type": "github",
+    "owner": "NixOS",
+    "repo": "nixpkgs",
+    "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+    "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
+    "lastModified": 1795234589
+  },
+  "nordvpn": {
+    "type": "git",
+    "url": "https://codeberg.org/marcodemayda/nordvpn-nix",
+    "ref": "HEAD",
+    "rev": "ee2441b70cb1358163e1f4b6f13568f567eccd07",
+    "narHash": "sha256-QrIOPI8t2asUdUs/Xz/XAlg6Z/KRDXR7UfVxxz5LiPc=",
+    "lastModified": 1795445449
+  },
+  "nvf": {
+    "type": "github",
+    "owner": "NotAShelf",
+    "repo": "nvf",
+    "rev": "ee07579419e4e020c017b2d9817d8245d167a6fb",
+    "narHash": "sha256-b6aWfz15e6TTc+soIryw4cUVUU4U/DD/Rq3FU2RisTg=",
+    "lastModified": 1795728245
+  },
+  "plasma-manager": {
+    "type": "github",
+    "owner": "nix-community",
+    "repo": "plasma-manager",
+    "rev": "a19a2a029fa180911bd89c554dca1616e10f4c1d",
+    "narHash": "sha256-jZhZkzAwc7f3exzcTDJWP2WCAchCv0iNC3UF/QsahdQ=",
+    "lastModified": 1785762349
+  },
+  "serpantinum": {
+    "type": "github",
+    "owner": "ilyamiro",
+    "repo": "serpantinum",
+    "rev": "687b08f6e378f7194169f3528de563a34b7493fa",
+    "narHash": "sha256-mfUkDKFiDhjjw2uP3s0LyIyhodPe+6mYVZ8IyU6P4PU=",
+    "lastModified": 1795804408
+  }
+}

@@ -83,6 +83,7 @@ in {
       notesnook
       thunderbird
       bedrock-on-linux.packages.${pkgs.stdenv.hostPlatform.system}.default
+      tack
 
       kdePackages.okular
       kdePackages.spectacle
@@ -92,6 +93,7 @@ in {
       kdePackages.breeze-gtk
       kdePackages.qtmultimedia
       kdePackages.sddm-kcm
+      kdePackages.kirigami.unwrapped
     ]
     ++ (with pkgs-unstable; [
       (superfile.overrideAttrs (oldAttrs: {
