@@ -126,6 +126,7 @@
         html.enable = true;
         clang.enable = true;
         python.enable = true;
+        toml.enable = true;
       };
 
       utility.snacks-nvim = {
