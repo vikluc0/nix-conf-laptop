@@ -35,9 +35,9 @@
     "type": "github",
     "owner": "NixOS",
     "repo": "nixpkgs",
-    "rev": "0dc498bfe49baeb18b0f9891e800b53bb2603193",
-    "narHash": "sha256-s/0jq8usZtLVOolYBwmyUmd3JsfAu7w3FU+a0dgMqSY=",
-    "lastModified": 1795370043
+    "rev": "5b31ff946309736077f0c4ee23bb85d0a0a1c181",
+    "narHash": "sha256-CiSQ3/bsP5gXG2SQzOgwhqwl9MkBRhQQqJd3YmpaYL4=",
+    "lastModified": 1795502373
   },
   "nixpkgs-unstable": {
     "type": "github",
@@ -51,9 +51,9 @@
     "type": "git",
     "url": "https://codeberg.org/marcodemayda/nordvpn-nix",
     "ref": "HEAD",
-    "rev": "ee2441b70cb1358163e1f4b6f13568f567eccd07",
-    "narHash": "sha256-QrIOPI8t2asUdUs/Xz/XAlg6Z/KRDXR7UfVxxz5LiPc=",
-    "lastModified": 1795445449
+    "rev": "fac4331b62fe17af7326e17676a4e576e9a88a33",
+    "narHash": "sha256-3/ZRRnKiZ6GBOrqIB7jYj6bqgzo7IOSOTmTAIdCmEC8=",
+    "lastModified": 1795789424
   },
   "nvf": {
     "type": "github",
