@@ -28,14 +28,17 @@ nixpkgs = "nixpkgs"
 [inputs]
 
 [inputs.nixpkgs]
-url = "github:NixOS/nixpkgs/nixos-26.05"
+url   = "github:NixOS/nixpkgs/nixos-26.05"
+group = "pkgs"
 
 [inputs."nixpkgs-unstable"]
 url            = "github:NixOS/nixpkgs/nixos-unstable"
 exclude_follow = ["nixpkgs"]
+group          = "pkgs"
 
 [inputs."nix-flatpak"]
-url = "github:gmodena/nix-flatpak"
+url   = "github:gmodena/nix-flatpak"
+group = "pkgs"
 
 [inputs."home-manager"]
 url = "github:nix-community/home-manager/release-26.05"
