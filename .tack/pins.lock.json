@@ -15,6 +15,14 @@
     "narHash": "sha256-XYoMPsqRFZ6jOaYI1KAAu8fzqif4tkCX8mhEKrViDXQ=",
     "lastModified": 1795325060
   },
+  "import-tree": {
+    "type": "github",
+    "owner": "denful",
+    "repo": "import-tree",
+    "rev": "eb1b52eaecc57f7c136d07ae8a93e724dfecac46",
+    "narHash": "sha256-ljEMTXP/rH0tOvDzc9gzwww6KcHRPRnEHzd9lK48V7s=",
+    "lastModified": 1788467110
+  },
   "nix-flatpak": {
     "type": "github",
     "owner": "gmodena",
